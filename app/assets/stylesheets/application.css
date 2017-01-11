@@ -13,3 +13,84 @@
  *= require_tree .
  *= require_self
  */
+* {
+  /*border: 2px solid white;*/
+}
+
+body {
+  background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/05/Blurred-city-street-world-wallpaper.jpg");
+  background-size: 100% 60vw;
+  background-repeat: no-repeat;
+
+}
+
+#button {
+  text-align: center;
+  font-size: 25px;
+}
+
+.btn {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-top: 5%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.btn:hover {
+  background-color: #aeea00;
+}
+
+
+h1 {
+  width: 260px;
+  height: 200px;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-weight: 100;
+  font-size: 100px;
+}
+
+#weather-stats {
+  margin: 0 auto;
+}
+
+#weather-stats h2, #weather-stats h3 {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+mph {
+  font-size: 15px;
+}
+
+h3, mph {
+  margin-right: 1em;
+  margin-left: 1em;
+
+}
+
+.carousel .carousel-item img {
+  height: 400px;
+  border-radius: 4px;
+  border-bottom: 5px solid #c6ff00;
+  width: 100%;
+  margin-top: 0;
+}
+
+.carousel .carousel-item {
+  width: 400px;
+}
+
+.carousel {
+  padding-bottom: 100px;
+  height: 500px;
+}

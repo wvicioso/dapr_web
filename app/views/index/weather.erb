@@ -1,0 +1,19 @@
+
+<div id="weather-stats" class="center-align">
+
+  <h3 class="thin blue-text text-lighten-4 temp">TEMP</h3>
+  <h2 class="thin temp-text"><%= get_temp %>°</h2>
+
+  <h3 class="thin blue-text text-lighten-4 wind">WIND</h3>
+  <h2 class="thin wind-text"><%= get_wind %><mph>mph</mph></h2>
+
+  <h3 class="thin blue-text text-lighten-4 weather">CONDITIONS</h3>
+  <h2 class="thin weather-text"><%= get_weather %></h2>
+</div>
+
+
+<div class="carousel">
+  <% get_outfits(70).each do |outfit| %>
+  <a class="carousel-item" href="#one!"><img src="<%= outfit %>"></a>
+  <% end %>
+</div>
